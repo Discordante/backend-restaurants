@@ -14,8 +14,8 @@ router.post('/login', usersController.authenticate)
 // Restaurants routes
 router.get('/restaurants', restaurantsController.list)
 router.get('/restaurants/:id', restaurantsController.get)
-router.post('/restaurants', authMiddleware.isAuthenticated, restaurantsController.create)
-router.delete('/restaurants/:id', restaurantsController.delete)
-router.put('/restaurants/:id', restaurantsController.update)
+//router.post('/restaurants', authMiddleware.isAuthenticated, restaurantsController.create)
+//router.delete('/restaurants/:id', restaurantsController.delete)
+//router.put('/restaurants/:id', restaurantsController.update)
 
 module.exports = router;

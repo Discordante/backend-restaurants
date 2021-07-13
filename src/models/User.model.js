@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 const { Schema } = require('mongoose');
 const bcrypt = require('bcrypt')
-const Restaurant = require('./Restaurant.model')
 
 const SALT_WORK_FACTOR = 10;
 
